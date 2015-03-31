@@ -31,8 +31,7 @@ $linkcolor: $blue;
 /*
  * TYPOGRAPHY
  */
-$primaryfont: 'proxima-nova', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$secondaryfont: 'adelle', Georgia, serif;
+$primaryfont: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
 
 $font-color: $verydark;
 /*$font-color-lighter: #6b7574;*/
@@ -50,20 +49,10 @@ $border-radius: 4px;
 /*
  * Layout
  */
-$site-width: 62em;
+$site-width: 37.5em;
 $outside-gutter-small: .5em;
 $outside-gutter-medium: 1.25em;
 $outside-gutter-large: 2em;
-
-$out-gutter-pct: 3%;
-
-/*$article-max-width: 45.5em;*/
-$article-max-width: 728px;
-
-$story-width: 94%;
-$story-width-medium: 90%;
-
-$article-feature-image-max-width: 48em;
 
 /*
  * Breakpoint
@@ -75,22 +64,6 @@ $small-start              : 20em;        //  320px
 $small-minor-start        : 25.625em;    //  410px
 $medium-start             : 30em;        //  480px
 $medium-minor-start       : 36em;        //  576px
-$medium-minor-minor-start : 43em;        //  688px
-$large-start-minus-1      : 47.9375em;   //  767px
-$large-start              : 48em;        //  768px
-$leaderboard-start        : 50.5625em;   //  809px
-$large-minor-start        : 56em;        //  896px
-$max-site-start           : $site-width; //  992px
-$xlarge-start-minus-1     : 63.9375em;   //  1023px
-$xlarge-start             : 64em;        //  1024px
-$xxlarge-start            : 90em;        //  1440px
-
-/*
- * Breakpoint syncs
- */
-$big-menu-start: $leaderboard-start;
-$overlay-start: $large-start;
-
 
 /*
  * Special

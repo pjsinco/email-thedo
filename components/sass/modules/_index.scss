@@ -1,0 +1,38 @@
+.wrapper {
+  max-width: $site-width;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 0;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.main {
+
+}
+
+.header {
+  max-width: 100%;
+  height: auto;
+  padding-right: 2em;
+  margin-bottom: 2em;
+}
+
+.flag {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+
+  img {
+    width: 50%;
+  }
+}
+
+.email-body {
+  background: $white;
+  border: 1px solid $lightgray;
+  padding: 2em;
+}
+
+
